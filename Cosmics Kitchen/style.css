@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #607475;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0px auto;
+    z-index: 100;
+  }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color:antiquewhite
+}
+
+
+.foods {
+    text-align: center;
+    background-color: rgb(235, 235, 208);
+    width: 100%;
+    height: auto;
+    max-height: 600;
+    padding: 50px 0;
+    box-sizing: border-box;
+    margin-top: 79px;
+
+}
+
+img {
+    max-width: 20%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    box-shadow: rgba(55, 56, 56, 0.2) 5px 10px;
+    border-radius: 10px;
+    margin: 0px 30px;
+    display: inline-block; 
+    z-index: 99;
+    transition: all 0.22s ease-in-out;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    box-shadow: rgba(236, 130, 9, 0.2) 10px 10px;
+    
+}
+section {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
